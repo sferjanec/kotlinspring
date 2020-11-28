@@ -3,14 +3,21 @@
 This project was generated using Spring Boot 2.4.0.  This project demonstrates the efficiencies of building REST services using Spring Boot with Kotlin 
 and Flyway for database migrations
 
-## Development server
+## Prerequisites
 
-Run `gradle bootRun` to build and run the Tomcat development server
+Install Kotlin: version used: 1.3.72  
+Install JDK: version used - 11.0.6  
+Instadd Gradle: version used - 6.7.1
 
 ## MySQL configuration
+
 Update kotlinsping/src/main/resources/application.yml with your datasource url and credentials.
 
 Remember to start your MySQL container or docker container with MySQL image prior to starting the Tomcat server.
+
+## Development server
+
+Run `gradle bootRun` to build and run the Tomcat development server
 
 ## Additional Docker settings for containerized MySQL
 
